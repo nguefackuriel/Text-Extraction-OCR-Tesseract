@@ -84,7 +84,11 @@ tesseract --version
 
 #### ✅ Step 5: Libraries installation
 
-Clone the GitHub repo.
+Clone the GitHub repo using:
+
+```bash
+git clone https://github.com/nguefackuriel/Text-Extraction-OCR-Tesseract.git
+```
 
 Run this in Command Prompt:
 
