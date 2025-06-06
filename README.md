@@ -44,7 +44,7 @@ Open **Command Prompt** and run:
 
 ```bash
 pdfinfo
-
+```
 You should see Poppler's help output, confirming it's properly installed.
 
 
@@ -59,9 +59,13 @@ C:\Program Files\Tesseract-OCR
 
 #### ⚙️ Step 2: Add Tesseract to your System PATH
 
-Add:
+1. Open **Start Menu** → Search for **Environment Variables**  
+2. Click **"Edit the system environment variables"**  
+3. In the **System Properties** window, click **Environment Variables...**  
+4. Under **System variables**, find and select `Path`, then click **Edit**  
+5. Click **New** and add: C:\Program Files\Tesseract-OCR
 
-C:\Program Files\Tesseract-OCR
+6. Click **OK** to close all windows
 
 #### 🌍 Step 3: Download Language Packs (e.g., French)
 Install during Tesseract setup
@@ -76,6 +80,7 @@ Run this in Command Prompt:
 
 ```bash
 tesseract --version
+```
 
 #### ✅ Step 5: Libraries installation
 
@@ -85,20 +90,23 @@ Run this in Command Prompt:
 
 ```bash
 cd ocr_tesseract
+```
 
 Run this in Command Prompt:
 
 ```bash
 pip install -r requirements.txt
+```
 
 #### ✅ Step 6: Run the code
 Run this in Command Prompt:
 
 ```bash
 python ocr_tesseract.py pdf_file.pdf output_file.txt
+```
 
 for example:
 
 ```bash
 python ocr_tesseract.py D:\Downloads_Uriel\ordo_1.pdf D:\Downloads_Uriel\ordo_1.txt
-
+```
