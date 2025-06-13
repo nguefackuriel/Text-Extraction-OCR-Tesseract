@@ -6,7 +6,7 @@ import pytesseract
 
 def ocr_pdf_file(pdf_path, output_file, language='fra'):
     try:
-        # We convert PDF pages to images
+        # We first convert PDF pages to images
         pages = convert_from_path(pdf_path)
 
         # Text extraction
