@@ -71,9 +71,8 @@ C:\Program Files\Tesseract-OCR
 Install during Tesseract setup
 
 Or manually download from: [tessdata](https://github.com/tesseract-ocr/tessdata/blob/main/fra.traineddata)
-and place the .traineddata file (e.g., fra.traineddata) into:
+and place the .traineddata file (e.g., fra.traineddata) to your system PATH variable (follow same steps as for Poppler):
 
-to your system PATH variable (follow same steps as for Poppler)
 
 #### ✅ Step 4: Verify Installation
 Run this in Command Prompt:
