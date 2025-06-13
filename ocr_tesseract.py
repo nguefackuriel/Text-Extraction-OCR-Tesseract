@@ -19,7 +19,7 @@ def ocr_pdf_file(pdf_path, output_file, language='fra'):
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(full_text)
 
-        print(f"Bingoo!! OCR complete. Output saved to: {output_file}")
+        print(f"Bingoo!! OCR complete. The output is saved to: {output_file}")
 
     except Exception as e:
         print(f"Error: {e}")
